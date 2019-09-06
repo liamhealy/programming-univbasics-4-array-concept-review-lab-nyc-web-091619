@@ -12,7 +12,7 @@ end
 def find_max_value(array)
   # Add your solution here
   counter = 0
-  highest_val = array[0]
+  highest_val = 0
   while counter < array.length do
     if array[counter] > highest_val
       highest_val = array[counter]
