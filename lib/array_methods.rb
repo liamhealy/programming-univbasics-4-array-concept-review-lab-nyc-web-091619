@@ -13,13 +13,12 @@ def find_max_value(array)
   # Add your solution here
   counter = 0
   highest_val = array[counter]
-  length = array.size
-  length do |highest_val|
+  while counter < array.length do
     if array[counter] > highest_val
-      highest_val = array[counter]
+      highest_val =- array[counter]
     end
   end
-  highest_val
+  return highest_val
 end
 
 def find_min_value(array)
