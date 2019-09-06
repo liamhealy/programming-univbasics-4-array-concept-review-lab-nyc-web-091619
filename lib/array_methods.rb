@@ -13,7 +13,7 @@ def find_max_value(array)
   # Add your solution here
   counter = 0
   highest_val = array[counter]
-  lenght = array.size
+  length = array.size
   array.length.times do |highest_val|
     if array[counter] > highest_val
       highest_val = array[counter]
